@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #022244;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.hero {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2, h3 {
+    color: #003366;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+.contact-box {
+    border-left: 5px solid #003366;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        width: 92%;
+    }
+}
